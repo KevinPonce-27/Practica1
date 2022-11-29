@@ -110,7 +110,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/txtNombre"
@@ -130,7 +130,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="153dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="date" />
 
     <EditText
         android:id="@+id/txtCiudad"
@@ -160,7 +160,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="310dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/txtTelefono"
@@ -170,7 +170,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="194dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="phone" />
 
     <Button
         android:id="@+id/btEnviar"
